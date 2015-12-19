@@ -32,7 +32,7 @@ where `True` indicates positive/negative classification, and `False` indicates 5
 
 2. [Install scikit-learn](http://scikit-learn.org/stable/install.html).
 
-3. Save `classify.py` and `yelp_utils.py` in the same directory as the Yelp data, and run `classify.py` as described in the [Example section](https://github.com/aelk/Yelp-Review-Sentiment-Predictor#example) above.
+3. Save `classify.py` and `yelp_utils.py` in the same directory as the Yelp data, and run `classify.py` as described in the Example section above.
 Provide code examples and explanations of how to get the project.
 
 ## License
