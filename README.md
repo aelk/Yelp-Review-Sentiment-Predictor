@@ -2,11 +2,11 @@
 
 ## About
 
-Given a Yelp review, this project builds two types of classifiers to assign to the review 1) a positive or negative sentiment, and 2) a rating in the interval [1, 5]. We use either Naive Bayes, SVM, or Logistic Regression as the model, and the [Yelp dataset](http://www.yelp.com/dataset_challenge/) to train the classifier.
+Given a Yelp review, this project builds two types of classifiers to assign to the review 1) a positive or negative sentiment, and 2) a rating in the interval [1, 5]. The classifier is trained with either Naive Bayes, SVM, or Logistic Regression as the model, and the [Yelp dataset](http://www.yelp.com/dataset_challenge/). The corresponding paper *Predicting the Sentiment Polarity and Rating of Yelp Reviews* may be found on arXiv [here](http://arxiv.org/abs/1512.06303).
 
 ## Motivation
 
-From Section 1.2 of `predicting-sentiment-yelp.pdf`: "It is useful for Yelp to associate review text with a star rating (or at least a positive or negative assignment) accurately in order to judge how helpful and reliable certain reviews are. Perhaps users could give a good review but a bad rating, or vice versa. Also Yelp might be interested in automating the rating process, so that all users would have to do is write the review, and Yelp could give a suggested rating."
+From Section 1.2 of *Predicting the Sentiment Polarity and Rating of Yelp Reviews*: "It is useful for Yelp to associate review text with a star rating (or at least a positive or negative assignment) accurately in order to judge how helpful and reliable certain reviews are. Perhaps users could give a good review but a bad rating, or vice versa. Also Yelp might be interested in automating the rating process, so that all users would have to do is write the review, and Yelp could give a suggested rating."
 
 ## Example
 
